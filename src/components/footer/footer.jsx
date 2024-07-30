@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';
+import '../footer/footer.css';
 import twitterIcon from '../../assets/twitter.png'; // Update path as necessary
 import linkedinIcon from '../../assets/linkedin.png'; // Update path as necessary
 import fl from '../../assets/flower.png'; // Update path as necessary
