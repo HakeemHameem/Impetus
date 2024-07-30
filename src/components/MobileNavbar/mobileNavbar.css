@@ -1,0 +1,41 @@
+.mobile-navbar {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .mobile-navbar-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .mobile-navbar-links.active {
+    display: flex;
+  }
+  
+  .mobile-navbar-toggle {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .mobile-navbar-toggle-icon {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+  }
+  
+  @media (max-width: 768px) {
+    .mobile-navbar {
+      display: flex;
+    }
+  }
+  

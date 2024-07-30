@@ -1,0 +1,379 @@
+ /* .navbar {
+    font-family: "Encode Sans Semi Expanded", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: white;
+    color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-logo img {
+    height: 50px;
+  }
+  
+  .navbar-menu {
+    font-family:"Encode Sans Semi Expanded", sans-serif;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    padding-left: 210px;
+  }
+  
+  .navbar-menu li {
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .navbar-buttons {
+    font-family: "Encode Sans Semi Expanded", sans-serif;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-button, .navbar-contact-button {
+    font-family: "Encode Sans Semi Expanded", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .navbar-button {
+    font-family: "Encode Sans Semi Expanded", sans-serif;
+    background-color: transparent;
+    color: black;
+  }
+  
+  .navbar-contact-button {
+    font-family: "Encode Sans Semi Expanded", sans-serif;
+    background-color: black;
+    color: white;
+  }
+  
+  body {
+    margin: 0;
+    padding-top: 80px;
+  }
+   
+
+
+
+.navbar {
+    font-family: "Encode Sans Semi Expanded", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: white;
+    color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-logo img {
+    height: 50px;
+  }
+  
+  .navbar-menu {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    padding-left: 210px;
+  }
+  
+  .navbar-menu li {
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-button, .navbar-contact-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .navbar-button {
+    background-color: transparent;
+    color: black;
+  }
+  
+  .navbar-contact-button {
+    background-color: black;
+    color: white;
+  }
+  
+
+  @media (max-width: 768px) {
+    .navbar-menu {
+      display: none;
+      flex-direction: column;
+      background-color: white;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .navbar-menu.open {
+      display: flex;
+    }
+  
+    .navbar-buttons {
+      display: none;
+    }
+  
+    .hamburger {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .hamburger i {
+      font-size: 24px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .welcome-text {
+      left: 20px;
+      top: 100px;
+      width: 90%;
+    }
+  
+    .welcome-text h1 {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  
+    .welcome-text p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    .demo-button {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .welcome-image {
+      top: 200px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%;
+      height: auto;
+    }
+  
+    .trusted-section, .why-us-section, .streamline-section, .streamline-section-second, .streamline-section-third {
+      padding: 0 10px;
+    }
+  
+    .trusted-section .brands-logos {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .trusted-section .brands-logos img {
+      margin: 10px 0;
+    }
+  
+    .why-us-boxes, .agent-activation, .agent-activation-second, .agent-activation-third {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .why-us-box, .activation-text, .activation-text-second, .activation-text-third {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .activation-image, .activation-image-second, .activation-image-third {
+      width: 100%;
+      height: auto;
+    }
+  } */
+
+  .navbar {
+    font-family: "Encode Sans Semi Expanded", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: white;
+    color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-logo img {
+    height: 50px;
+  }
+  
+  .navbar-menu {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    padding-left: 210px;
+  }
+  
+  .navbar-menu li {
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-button, .navbar-contact-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .navbar-button {
+    background-color: transparent;
+    color: black;
+  }
+  
+  .navbar-contact-button {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    .navbar-menu {
+      display: none;
+      flex-direction: column;
+      background-color: white;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .navbar-menu.open {
+      display: flex;
+    }
+  
+    .navbar-menu li {
+      color: black;
+    }
+  
+    .navbar-buttons {
+      display: none;
+    }
+  
+    .hamburger {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .hamburger i {
+      font-size: 24px;
+    }
+  }
+  
+  /* Desktop Styles */
+  @media (min-width: 769px) {
+    .hamburger {
+      display: none;
+    }
+  }
+  
+  /* Adjust the content accordingly for mobile screens */
+  @media (max-width: 768px) {
+    .welcome-text {
+      left: 20px;
+      top: 100px;
+      width: 90%;
+    }
+  
+    .welcome-text h1 {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  
+    .welcome-text p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    .demo-button {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .welcome-image {
+      top: 200px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%;
+      height: auto;
+    }
+  
+    .trusted-section, .why-us-section, .streamline-section, .streamline-section-second, .streamline-section-third {
+      padding: 0 10px;
+    }
+  
+    .trusted-section .brands-logos {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .trusted-section .brands-logos img {
+      margin: 10px 0;
+    }
+  
+    .why-us-boxes, .agent-activation, .agent-activation-second, .agent-activation-third {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .why-us-box, .activation-text, .activation-text-second, .activation-text-third {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .activation-image, .activation-image-second, .activation-image-third {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
