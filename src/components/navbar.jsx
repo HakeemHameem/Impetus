@@ -1,34 +1,5 @@
-// import React from 'react';
-// import './Navbar.css';
-// import logo from '../assets/Logo.png';
-// import '@fortawesome/fontawesome-free/css/all.min.css';
-
-// const Navbar = () => {
-//   return (
-//     <nav className="navbar">
-//       <div className="navbar-logo">
-//         <img src={logo} alt="Company Logo" />
-//       </div>
-//       <ul className="navbar-menu">
-//         <li>Products</li>
-//         <li>News</li>
-//         <li>About</li>
-//       </ul>
-//       <div className="navbar-buttons">
-//         <button className="navbar-button">
-//           Refer Us <i className="fas fa-arrow-right"></i>
-//         </button>
-//         <button className="navbar-contact-button">
-//           Contact Us <i className="fas fa-arrow-right"></i>
-//         </button>
-//       </div>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;
 import React, { useState } from 'react';
-import './Navbar.css';
+import '../components/navbar.css'
 import logo from '../assets/Logo.png';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
